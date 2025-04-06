@@ -26,6 +26,24 @@ export default function Media() {
             </a>
           </button>
         </div>
+        <div className="media-container-one">
+          <h3>SystemSage Solutions প্রথম রানার আপ, Youth Startup Summit 2025-এ দারুণ সাফল্য</h3>
+          <p>রাজশাহী বিশ্ববিদ্যালয়ের রবীন্দ্র ভবনে অনুষ্ঠিত চূড়ান্ত পর্বে ৮ টি ফাইনালিস্ট দলের মধ্যে রুয়েটের টিম 'SystemSage Solutions' দল প্রথম রানার আপ হয়েছে।</p>
+          <button className='public-button'>
+            <a href="https://ruet.ac.bd/news-and-event/VdnrDSVremVQgCFYEXKHt9eOXJ6hCSiK3lrCZz3S" target='_blank'>
+              Read More
+            </a>
+          </button>
+        </div>
+        <div className="media-container-one">
+          <h3>Youth Startup Summit 2025-এ প্রথম রানার আপের গৌরব অর্জন করলো SystemSage Solutions</h3>
+          <p>রাজশাহী বিশ্ববিদ্যালয়ের রবীন্দ্র ভবনে অনুষ্ঠিত চূড়ান্ত পর্বে ৮ টি ফাইনালিস্ট দলের মধ্যে রুয়েটের টিম 'SystemSage Solutions' দল প্রথম রানার আপ হয়েছে।</p>
+          <button className='public-button'>
+            <a href="https://www.jaijaidinbd.com/education/528825" target='_blank'>
+              Read More
+            </a>
+          </button>
+        </div>
       </div>
     </div>
   )
