@@ -326,6 +326,91 @@
   margin-bottom:20px;
   border-left: 4px solid rgb(214, 84, 250);
 }
+.gallery-section {
+  padding: 4rem 2rem;
+  background: #f8f9fa;
+  text-align: center;
+}
+
+.section-title {
+  margin-bottom: 2rem;
+  font-size: 2.5rem;
+  color: #333;
+}
+
+.gallery-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+}
+
+.gallery-slider {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  height: 600px; /* Adjust as needed */
+}
+
+.slide {
+  min-width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.gallery-image {
+  width: 80%;
+  height: 105%;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  
+}
+
+.image-caption {
+  position: absolute;
+  width: 77.5%;
+  bottom: 0;
+  left: 0;
+  margin: 0 auto;
+  right: 0;
+  background: rgba(0,0,0,0.7);
+  color: white;
+  padding: 1rem;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.gallery-dots {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #ccc;
+  margin: 0 5px;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.dot.active {
+  background: #333;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .gallery-slider {
+    height: 300px;
+  }
+  
+  .section-title {
+    font-size: 2rem;
+  }
+}
 
   @keyframes fadeInUp {
     from {

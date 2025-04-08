@@ -9,6 +9,7 @@ import Projects from './sections/Projects'
 import Publications from './sections/Publications'
 import Skills from './sections/Skills'
 import Experience from './sections/Experience'
+import GallerySection from './sections/GallerySection';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Navbar />
       <Hero />
       <About />
+      <GallerySection />
       <Education />
       <Skills />
       <Projects />

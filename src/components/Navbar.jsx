@@ -6,7 +6,7 @@ export default function Navbar() {
       <div className="container">
         <div className="logo">Sabbir Ahmed</div>
         <ul className="nav-links">
-          {['home', 'about', 'education', 'skills', 'projects','experience', 'publications', 'achievements', 'media'].map((item) => (
+          {['home', 'about','gallery', 'education', 'skills', 'projects','experience', 'publications', 'achievements', 'media'].map((item) => (
             <li key={item}>
               <Link 
                 to={item}
