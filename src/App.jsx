@@ -10,6 +10,7 @@ import Publications from './sections/Publications'
 import Skills from './sections/Skills'
 import Experience from './sections/Experience'
 import GallerySection from './sections/GallerySection';
+import Footer from './sections/Footer'
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
       <Publications />
       <Awards />
       <Media />
+      <Footer />
     </div>
   )
 }

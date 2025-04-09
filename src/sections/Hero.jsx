@@ -24,13 +24,13 @@ export default function Hero() {
           Co-founder, COO & Lead Business Strategist of SystemSage Solutions
           </p>
           <div className="social-link">
-            <a href="#" target="_blank" > 
+            <a href="https://systemsage.tech/" target="_blank" > 
               <img src="website.png" alt="" />
             </a>
             <a href="https://facebook.com" target="_blank" >
               <img src="facebook.png" alt="" />
             </a>
-            <a href="#" target="_blank" >
+            <a href="https://www.linkedin.com/in/sabbir-ahamed-860653275/" target="_blank" >
               <img src="linkedin.png" alt="" />
             </a>
             <a href="#" target="_blank" >
